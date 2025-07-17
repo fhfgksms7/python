@@ -1,0 +1,10 @@
+num = input("주민등록번호: ") 
+#split( 함수를 )
+
+num = num.split("-")[1]
+print("추출문자열:", num)
+
+if  num[0] == "1" or num[0] == "3" :
+      print("남자")
+else :
+      print("여자")
